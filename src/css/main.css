@@ -181,3 +181,23 @@ margin-bottom: 8px;
     width: 530px;
   }
 }
+/* Testimonials */
+.my-swiper .swiper-slide{
+    border-radius: 16px;
+        padding: 16px;
+        background: #5579e6;
+        color: #fff;
+}
+.author{
+    margin-top: 16px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: right;
+        color: #8ce533;
+}
+@media only screen and (min-width: 1440px) {
+.author {
+font-size: 20px;
+    }
+}
