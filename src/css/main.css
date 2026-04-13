@@ -94,7 +94,7 @@ background: #e6c038;
 }
 .how-list{
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-bottom: 32px;
 }
 @media only screen and (min-width: 1440px) {
@@ -105,5 +105,79 @@ gap: 96px;
   }
   .how-wrapper{
     width: 540px;
+  }
+}
+/* Margin System */
+.margin-title{
+    margin-bottom: 24px;
+}
+.margin-subtitle{
+    font-family: "Zen Maru Gothic", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.3;
+        color: #222742;
+margin-bottom: 64px;
+}
+.margin-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.margin-item{
+    border-radius: 16px;
+        padding: 16px;
+        width: 343px;
+        height: auto;
+background: #5579e6;
+}
+.margin-item-title{
+    font-family: "Zen Maru Gothic", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fdd542;
+margin-bottom: 8px;
+}
+.margin-item-text{
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+ .margin-subtitle{
+    font-size: 48px;
+    margin-bottom: 80px;
+ }
+ .margin-list{
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 24px;
+ }
+ .margin-item{
+    width: 256px;
+        height: 124px;
+ }
+ .margin-item-title{
+    font-size: 20px;
+ }
+}
+/* Experience */
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.experience-list{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+@media only screen and (min-width: 1440px) {
+  .experience-container{
+    flex-direction: row-reverse;
+    gap: 96px;
+  }
+  .experience-wrapper{
+    width: 530px;
   }
 }
