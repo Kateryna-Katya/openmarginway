@@ -60,10 +60,6 @@ font-weight: 700;
 
 @media only screen and (min-width: 1440px) {
 
-    .background {
-        font-size: 18px;
-    }
-
     .privacy-title {
         font-size: 48px;
     }
